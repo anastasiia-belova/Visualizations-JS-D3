@@ -1,0 +1,31 @@
+{
+    "nodes":[
+        {"name":"cars","group":1,"description":"cars"},
+        {"name":"bmw","group":2,"description":"bmw"},
+        {"name":"toyota","group":2,"description":"toyota"},
+        {"name":"mercedes","group":2,"description":"mercedes"},
+        {"name":"bmw x6","group":4,"description":"bmw x6"},
+        {"name":"bmw m4","group":5,"description":"bmw m4"},
+        {"name":"bmw 745i","group":6,"description":"bmw 745i"},
+        {"name":"E-Klasse","group":7,"description":"E-Klasse"},
+        {"name":"S-Klasse","group":8,"description":"S-Klasse"},
+        {"name":"AMG","group":9,"description":"AMG"},
+        {"name":"Land Cruiser","group":10,"description":"Land Cruiser"},
+        {"name":"Corolla","group":11,"description":"Corolla"},
+        {"name":"Camry","group":12,"description":"-Camry-"}
+    ],
+    "links":[
+        {"source":0,"target":1,"weight":5},
+        {"source":0,"target":2,"weight":5},
+        {"source":0,"target":3,"weight":5},
+        {"source":1,"target":4,"weight":2},
+        {"source":1,"target":5,"weight":2},
+        {"source":1,"target":6,"weight":2},        
+        {"source":3,"target":7,"weight":2},
+        {"source":3,"target":8,"weight":2},
+        {"source":3,"target":9,"weight":2},
+        {"source":2,"target":10,"weight":2},
+        {"source":2,"target":11,"weight":2},
+        {"source":2,"target":12,"weight":2}
+    ]
+}
