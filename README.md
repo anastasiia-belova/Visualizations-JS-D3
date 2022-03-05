@@ -1,4 +1,4 @@
-# Visualizations
+# Visualizations (using JS D3)
 ____
 
 In this repository you can see examples of different visualizations:
